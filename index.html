@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    
+
+    
+    <script src="https://kit.fontawesome.com/317436f65e.js" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("oV5VbH_v9B3lfSmnE");
+   })();
+</script>
+</head> 
+<body>
+    <div class="container" style="position: relative;">
+        <nav style="position: fixed; top: 0; width: 100%; display: flex; justify-content: space-around; align-items: center; z-index: 100;padding-top: 20px;">
+            <p class="logo" style="color: white ; font-size: 2.5rem;margin-left: -500px;"><span>Albi</span></p>
+            <ul id="sidemenu" style="list-style: none; margin: 0; padding: 0; display: flex;">
+                <li style="margin: 0 10px;"><a href="#" style="text-decoration: none; color: white;">Home</a></li>
+                <li style="margin: 0 10px;"><a href="#about-1" style="text-decoration: none; color: white;">About</a></li>
+                <li style="margin: 0 10px;"><a href="#services-1" style="text-decoration: none; color: white;">Services</a></li>
+                <li style="margin: 0 10px;"><a href="#portfolio-1" style="text-decoration: none; color: white;">Portfolio</a></li>
+                <li style="margin: 0 10px;"><a href="#contact1-1" style="text-decoration: none; color: white;">Contact</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+        
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi,I'm <span>Albin John</span> </h1>
+                <p>"Success is no accident. It is hard work,<br> perseverance, learning, studying, sacrifice<br> and most of all, love of what you are doing <br>or learning to do."</p>
+            </div>
+       </div>
+   <div id="header">
+
+   </div>
+
+
+
+    <!-----------About---------->
+    
+     
+
+    <div class="about" id="about-1">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="me2.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitles">About Me</h1>
+                     <p class="description">Don’t forget: when you start a website, it’s not yet a trusted site.<br>So you have to bring people from a trusted site to your site to build up the trust<br>in your site.</p>
+
+                     <div class="tab-titles">
+                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                     <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                     <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Designer</span><br>Fronted  Devoloper</li>
+                        <li><span>Writer</span><br>Story,Script&Screenplay</li>
+                        <li><span>Photography</span><br>Wild&Events</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023-Current</span><br>Intern@Bridgeon Solutions</li>
+                        <li><span>2019-2023</span><br>PowerTech Electrical Solution</li>
+                        <li><span>2016-2019</span><br>KVR Group of Companies pvt Limited</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2012-2014</span><br>PlusTwo</li>
+                        <li><span>2014-2015</span><br>Diploma in Fire & Safety</li>
+                        <li><span>2015</span><br>NEBOSH & IOSH Certification</li>
+                    </ul>
+                   </div>
+            </div>
+        </div>
+     </div>
+ </div>
+
+
+ <!-------------------------services------------------>
+
+
+ <div id="services-1">
+    <div class="container">
+        <h1 class="subtitles">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-codepen"></i>
+                <h2>Web Design</h2>
+                <p>They appeal to your subconscious mind, which can do magic when awakens.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX</h2>
+                <p>“We must design for the way people behave, not for how we would wish them to behave.”</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>“As usual in programming, if something is difficult for you to understand, it’s probably not a good idea.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+
+ <!--------------------Portfolio---------------->
+
+
+ <div id="portfolio-1">
+    <div class="container">
+        <h1 class="subtitles">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="linkedin.png" alt="">
+                <div class="layer">
+                    <h3>linkedin Fronted</h3>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        <div class="work-list">
+            <div class="work">
+                <img src="navbar.png" alt="">
+                <div class="layer">
+                    <h3>W3Schools</h3>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+            <div class="work-list">
+                <div class="work">
+                <img src="Screenshot (105).png" alt="">
+                <div class="layer">
+                     <h3>Portfolio</h3>
+                     <a href="#"><i class="fa-solid fa-address-card"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <a href="#" class="btn">See more</a>
+</div>
+    </div>
+
+
+
+    <!-------------------contact----------------->  
+
+    
+    <div id="contact-1" style="display: flex; flex-wrap: wrap;padding: 20px;">
+        <div  style="float: left; padding: 20px;width: 40%;">
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-regular fa-paper-plane"></i>albinjohn1996th@gmail.com</p>
+                            <p><i class="fa-sharp fa-solid fa-phone-volume"></i>9744653296</p>
+                            <div class="social-icons">
+                                <a href="https://www.instagram.com/the_capture_life/"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://github.com/thecapturelife"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/albin-john-8339652a0/"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                            <a href="" class="btn btn2">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div style="float: left; display: flex; align-items: center;">
+            <div class="contact-right">
+                <!-- ... existing content ... -->
+            </div>
+            <div class="contact-right" style="text-align: center;">
+                <form>
+                    <input id="name1" type="text" name="Name" placeholder="Your Name" required>
+                    <input id="email1" type="email" name="email" placeholder="Your Email" required>
+                    <textarea id="msg" name="Message" rows="6" placeholder="Your Message"></textarea>
+                </form>
+                <button type="submit" class="btn btn2" onclick="sendMail()">Submit</button>
+            </div>
+        </div>
+    </div>
+<script src="index.js"></script>
+     <div class="copyright">
+        <p>Copyright 1996-2023 by Refsnes Data.<i class="fa-solid fa-heart"></i> All Rights Reserved. Portfolio is Powered by ALBIN JOHN</p>
+     </div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
